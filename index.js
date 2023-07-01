@@ -32,7 +32,7 @@ const generate = async () => {
 
   const heading = '# Hi, I\'m Snsar!';
   const imageMarkdown = '<img src="https://acegif.com/wp-content/uploads/2021/4fh5wi/pepefrg-21.gif" alt="drawing"  height = "100"/>';
-  const readmeContent = `${heading} ${imageMarkdown} <br> <br> <p>${fact}</p>`;
+  const readmeContent = `${heading} ${imageMarkdown} \n\n <p>${fact}</p>`;
 
   fs.writeFileSync('README.md', readmeContent);
 };
