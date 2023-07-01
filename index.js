@@ -30,7 +30,7 @@ const getQuote = async () => {
 const generate = async () => {
   const { quote, author } = await getQuote();
 
-  if (!fact) return;
+  if (!quote) return;
 
   const heading = '<h1>Hi, I\'m Snsar!</h1>';
   const imageMarkdown = '<img src="https://acegif.com/wp-content/uploads/2021/4fh5wi/pepefrg-21.gif" alt="drawing"  height = "100"/>';
