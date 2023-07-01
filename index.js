@@ -2,22 +2,24 @@ const axios = require('axios');
 const fs = require("fs");
 
 const limit = 1;
-const apiURL = `https://api.api-ninjas.com/v1/facts?limit=${limit}`;
+const category = "knowledge"
+const apiURL = `https://api.api-ninjas.com/v1/quotes?category=${category}`;
 
-const getFact = async () => {
+const getQuote = async () => {
   try {
     const response = await axios.get(apiURL, {
       headers: {
         'X-Api-Key': 'iemkezsN5DXWbWCaGxZU2g==VWckCXz0dmoeK9Ux'
       }
     })
-    const fact = response.data[0].fact;
+    const quote = response.data[0].quote;
+    const author = response.data[0].author;
 
-
-    console.log("new fact", `"${fact}"`);
+    console.log("new quote", `"${quote}" .... ${author}`);
 
     return {
-      fact,
+      quote,
+      author
     };
   } catch (err) {
     console.error(err.message);
@@ -26,13 +28,13 @@ const getFact = async () => {
 };
 
 const generate = async () => {
-  const { fact } = await getFact();
+  const { quote, author } = await getQuote();
 
   if (!fact) return;
 
   const heading = '<h1>Hi, I\'m Snsar!</h1>';
   const imageMarkdown = '<img src="https://acegif.com/wp-content/uploads/2021/4fh5wi/pepefrg-21.gif" alt="drawing"  height = "100"/>';
-  const readmeContent = `${heading} ${imageMarkdown} <br> <br> <p>${fact}</p>`;
+  const readmeContent = `${heading} ${imageMarkdown} <br> <br> <p>${quote}</p> <br> <p>${author}</p>`;
 
   fs.writeFileSync('README.md', readmeContent);
 };
