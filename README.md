@@ -1,1 +1,1 @@
-# Hi, I'm Snsar! <img src="https://acegif.com/wp-content/uploads/2021/4fh5wi/pepefrg-21.gif" alt="drawing"  height = "100"/> <br> <br> I never buy Velcro It's such a rip off.
+# Hi, I'm Snsar! <img src="https://acegif.com/wp-content/uploads/2021/4fh5wi/pepefrg-21.gif" alt="drawing"  height = "100"/> <br> <br> <p>Before its name was changed, the African Penguin used be called the Jackass Penguin because of its donkey-like braying call</p>
