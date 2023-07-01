@@ -2,7 +2,7 @@ const axios = require('axios');
 const fs = require("fs");
 
 const limit = 1;
-const category = "knowledge"
+const category = "money"
 const apiURL = `https://api.api-ninjas.com/v1/quotes?category=${category}`;
 
 const getQuote = async () => {
