@@ -1,22 +1,23 @@
 const axios = require('axios');
-const fs = require('fs');
+const fs = require("fs");
 
 const limit = 1;
 const apiURL = `https://api.api-ninjas.com/v1/jokes?limit=${limit}`;
 
-const getQuote = async () => {
+const getJoke = async () => {
   try {
     const response = await axios.get(apiURL, {
       headers: {
-        'X-Api-Key': 'YOUR_API_KEY'
+        'X-Api-Key': 'iemkezsN5DXWbWCaGxZU2g==VWckCXz0dmoeK9Ux'
       }
-    });
+    })
     const joke = response.data[0].joke;
 
-    console.log('new joke', `"${joke}"`);
+
+    console.log("new joke", `"${joke}"`);
 
     return {
-      joke
+      joke,
     };
   } catch (err) {
     console.error(err.message);
@@ -25,7 +26,7 @@ const getQuote = async () => {
 };
 
 const generate = async () => {
-  const { joke } = await getQuote();
+  const { joke } = await getJoke();
 
   if (!joke) return;
 
