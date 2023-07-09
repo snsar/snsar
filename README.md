@@ -1,1 +1,1 @@
-<h1>Hi, I'm Snsar!</h1> <img src="https://acegif.com/wp-content/uploads/2021/4fh5wi/pepefrg-21.gif" alt="drawing"  height = "100"/> <br> <br> <p><i>I don't think the money people in Hollywood have ever thought I was normal, but I am dedicated to my work and that's what counts.</i></p> <br> <p><i>Angelina Jolie</i></p>
+<h1>Hi, I'm Snsar!</h1> <img src="https://acegif.com/wp-content/uploads/2021/4fh5wi/pepefrg-21.gif" alt="drawing"  height = "100"/> <br> <br> <p><i>Money couldn't buy friends, but you got a better class of enemy.</i></p> <br> <p><i>Spike Milligan</i></p>
