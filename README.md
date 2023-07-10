@@ -1,1 +1,1 @@
-<h1>Hi, I'm Snsar!</h1> <img src="https://acegif.com/wp-content/uploads/2021/4fh5wi/pepefrg-21.gif" alt="drawing"  height = "100"/> <br> <br> <p><i>Money couldn't buy friends, but you got a better class of enemy.</i></p> <br> <p><i>Spike Milligan</i></p>
+<h1>Hi, I'm Snsar!</h1> <img src="https://acegif.com/wp-content/uploads/2021/4fh5wi/pepefrg-21.gif" alt="drawing"  height = "100"/> <br> <br> <p><i>I'll come to any benefit if I see SCLC get all the money.</i></p> <br> <p><i>Mahalia Jackson</i></p>
