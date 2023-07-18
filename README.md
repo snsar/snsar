@@ -1,1 +1,1 @@
-<h1>Hi, I'm Snsar!</h1> <img src="https://acegif.com/wp-content/uploads/2021/4fh5wi/pepefrg-21.gif" alt="drawing"  height = "100"/> <br> <br> <p><i>We need to stop spending money we don't have.</i></p> <br> <p><i>Paul Ryan</i></p>
+<h1>Hi, I'm Snsar!</h1> <img src="https://acegif.com/wp-content/uploads/2021/4fh5wi/pepefrg-21.gif" alt="drawing"  height = "100"/> <br> <br> <p><i>I'm hopeless with money I simply spend what I've got.</i></p> <br> <p><i>Freddie Mercury</i></p>
