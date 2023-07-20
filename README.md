@@ -1,1 +1,1 @@
-<h1>Hi, I'm Snsar!</h1> <img src="https://acegif.com/wp-content/uploads/2021/4fh5wi/pepefrg-21.gif" alt="drawing"  height = "100"/> <br> <br> <p><i>First and foremost I am a drummer. After that, I'm other things... But I didn't play drums to make money.</i></p> <br> <p><i>Ringo Starr</i></p>
+<h1>Hi, I'm Snsar!</h1> <img src="https://acegif.com/wp-content/uploads/2021/4fh5wi/pepefrg-21.gif" alt="drawing"  height = "100"/> <br> <br> <p><i>A group or an artist shouldn't get his money until his boss gets his.</i></p> <br> <p><i>Bobby Darin</i></p>
