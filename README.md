@@ -1,1 +1,1 @@
-<h1>Hi, I'm Snsar!</h1> <img src="https://acegif.com/wp-content/uploads/2021/4fh5wi/pepefrg-21.gif" alt="drawing"  height = "100"/> <br> <br> <p><i>A business that makes nothing but money is a poor business.</i></p> <br> <p><i>Henry Ford</i></p>
+<h1>Hi, I'm Snsar!</h1> <img src="https://acegif.com/wp-content/uploads/2021/4fh5wi/pepefrg-21.gif" alt="drawing"  height = "100"/> <br> <br> <p><i>Money cannot buy peace of mind. It cannot heal ruptured relationships, or build meaning into a life that has none.</i></p> <br> <p><i>Richard M. DeVos</i></p>
