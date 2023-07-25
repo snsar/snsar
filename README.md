@@ -1,1 +1,1 @@
-<h1>Hi, I'm Snsar!</h1> <img src="https://acegif.com/wp-content/uploads/2021/4fh5wi/pepefrg-21.gif" alt="drawing"  height = "100"/> <br> <br> <p><i>I have ways of making money that you know nothing of.</i></p> <br> <p><i>John D. Rockefeller</i></p>
+<h1>Hi, I'm Snsar!</h1> <img src="https://acegif.com/wp-content/uploads/2021/4fh5wi/pepefrg-21.gif" alt="drawing"  height = "100"/> <br> <br> <p><i>We go to school to learn to work hard for money. I write books and create products that teach people how to have money work hard for them.</i></p> <br> <p><i>Robert Kiyosaki</i></p>
