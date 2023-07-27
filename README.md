@@ -1,1 +1,1 @@
-<h1>Hi, I'm Snsar!</h1> <img src="https://acegif.com/wp-content/uploads/2021/4fh5wi/pepefrg-21.gif" alt="drawing"  height = "100"/> <br> <br> <p><i>Money won't create success, the freedom to make it will.</i></p> <br> <p><i>Nelson Mandela</i></p>
+<h1>Hi, I'm Snsar!</h1> <img src="https://acegif.com/wp-content/uploads/2021/4fh5wi/pepefrg-21.gif" alt="drawing"  height = "100"/> <br> <br> <p><i>Three groups spend other people's money: children, thieves, politicians. All three need supervision.</i></p> <br> <p><i>Dick Armey</i></p>
