@@ -1,1 +1,1 @@
-<h1>Hi, I'm Snsar!</h1> <img src="https://acegif.com/wp-content/uploads/2021/4fh5wi/pepefrg-21.gif" alt="drawing"  height = "100"/> <br> <br> <p><i>My Vegas act is how I make my money.</i></p> <br> <p><i>Rita Rudner</i></p>
+<h1>Hi, I'm Snsar!</h1> <img src="https://acegif.com/wp-content/uploads/2021/4fh5wi/pepefrg-21.gif" alt="drawing"  height = "100"/> <br> <br> <p><i>I've never preached one sermon on money, on just finances. I want to stay away from it.</i></p> <br> <p><i>Joel Osteen</i></p>
