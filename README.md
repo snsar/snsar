@@ -1,1 +1,1 @@
-<h1>Hi, I'm Snsar!</h1> <img src="https://acegif.com/wp-content/uploads/2021/4fh5wi/pepefrg-21.gif" alt="drawing"  height = "100"/> <br> <br> <p><i>A bank is a place that will lend you money if you can prove that you don't need it.</i></p> <br> <p><i>Bob Hope</i></p>
+<h1>Hi, I'm Snsar!</h1> <img src="https://acegif.com/wp-content/uploads/2021/4fh5wi/pepefrg-21.gif" alt="drawing"  height = "100"/> <br> <br> <p><i>A woman's best protection is a little money of her own.</i></p> <br> <p><i>Clare Boothe Luce</i></p>
