@@ -1,1 +1,1 @@
-<h1>Hi, I'm Snsar!</h1> <img src="https://acegif.com/wp-content/uploads/2021/4fh5wi/pepefrg-21.gif" alt="drawing"  height = "100"/> <br> <br> <p><i>I can make more generals, but horses cost money.</i></p> <br> <p><i>Abraham Lincoln</i></p>
+<h1>Hi, I'm Snsar!</h1> <img src="https://acegif.com/wp-content/uploads/2021/4fh5wi/pepefrg-21.gif" alt="drawing"  height = "100"/> <br> <br> <p><i>In troubled times the last thing you want to do is to stick your money into a film. It's such a gamble.</i></p> <br> <p><i>Robert Carlyle</i></p>
