@@ -1,1 +1,1 @@
-<h1>Hi, I'm Snsar!</h1> <img src="https://acegif.com/wp-content/uploads/2021/4fh5wi/pepefrg-21.gif" alt="drawing"  height = "100"/> <br> <br> <p><i>Recommend virtue to your children it alone, not money, can make them happy. I speak from experience.</i></p> <br> <p><i>Ludwig van Beethoven</i></p>
+<h1>Hi, I'm Snsar!</h1> <img src="https://acegif.com/wp-content/uploads/2021/4fh5wi/pepefrg-21.gif" alt="drawing"  height = "100"/> <br> <br> <p><i>Save your money. You're going to need twice as much money in your old age as you think.</i></p> <br> <p><i>Michael Caine</i></p>
