@@ -1,1 +1,1 @@
-<h1>Hi, I'm Snsar!</h1> <img src="https://acegif.com/wp-content/uploads/2021/4fh5wi/pepefrg-21.gif" alt="drawing"  height = "100"/> <br> <br> <p><i>Everybody likes a kidder, but nobody lends him money.</i></p> <br> <p><i>Arthur Miller</i></p>
+<h1>Hi, I'm Snsar!</h1> <img src="https://acegif.com/wp-content/uploads/2021/4fh5wi/pepefrg-21.gif" alt="drawing"  height = "100"/> <br> <br> <p><i>Language is like money, without which specific relative values may well exist and be felt, but cannot be reduced to a common denominator.</i></p> <br> <p><i>George Santayana</i></p>
