@@ -1,1 +1,1 @@
-<h1>Hi, I'm Snsar!</h1> <img src="https://acegif.com/wp-content/uploads/2021/4fh5wi/pepefrg-21.gif" alt="drawing"  height = "100"/> <br> <br> <p><i>What we get from this adventure is just sheer joy. And joy is, after all, the end of life. We do not live to eat and make money.</i></p> <br> <p><i>George Leigh Mallory</i></p>
+<h1>Hi, I'm Snsar!</h1> <img src="https://acegif.com/wp-content/uploads/2021/4fh5wi/pepefrg-21.gif" alt="drawing"  height = "100"/> <br> <br> <p><i>I don't think business news is just for old white men with money.</i></p> <br> <p><i>Neil Cavuto</i></p>
