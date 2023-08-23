@@ -1,1 +1,1 @@
-<h1>Hi, I'm Snsar!</h1> <img src="https://acegif.com/wp-content/uploads/2021/4fh5wi/pepefrg-21.gif" alt="drawing"  height = "100"/> <br> <br> <p><i>Neither soldiers nor money can defend a king but only friends won by good deeds, merit, and honesty.</i></p> <br> <p><i>Sallust</i></p>
+<h1>Hi, I'm Snsar!</h1> <img src="https://acegif.com/wp-content/uploads/2021/4fh5wi/pepefrg-21.gif" alt="drawing"  height = "100"/> <br> <br> <p><i>Money is the string with which a sardonic destiny directs the motions of its puppets.</i></p> <br> <p><i>W. Somerset Maugham</i></p>
