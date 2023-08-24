@@ -1,1 +1,1 @@
-<h1>Hi, I'm Snsar!</h1> <img src="https://acegif.com/wp-content/uploads/2021/4fh5wi/pepefrg-21.gif" alt="drawing"  height = "100"/> <br> <br> <p><i>Money is the string with which a sardonic destiny directs the motions of its puppets.</i></p> <br> <p><i>W. Somerset Maugham</i></p>
+<h1>Hi, I'm Snsar!</h1> <img src="https://acegif.com/wp-content/uploads/2021/4fh5wi/pepefrg-21.gif" alt="drawing"  height = "100"/> <br> <br> <p><i>To get rich, you have to be making money while you're asleep.</i></p> <br> <p><i>David Bailey</i></p>
