@@ -1,1 +1,1 @@
-<h1>Hi, I'm Snsar!</h1> <img src="https://acegif.com/wp-content/uploads/2021/4fh5wi/pepefrg-21.gif" alt="drawing"  height = "100"/> <br> <br> <p><i>To get rich, you have to be making money while you're asleep.</i></p> <br> <p><i>David Bailey</i></p>
+<h1>Hi, I'm Snsar!</h1> <img src="https://acegif.com/wp-content/uploads/2021/4fh5wi/pepefrg-21.gif" alt="drawing"  height = "100"/> <br> <br> <p><i>American men, as a group, seem to be interested in only two things, money and breasts. It seems a very narrow outlook.</i></p> <br> <p><i>Hedy Lamarr</i></p>
