@@ -1,11 +1,12 @@
+
 <h2 align="center">
   <img src="https://media.giphy.com/media/hvRJCLFzcasrR4ia7z/giphy.gif" width="28">
-  Welcome to snsar's Profile! 
+  Welcome to your Profile! 
   <img src="https://media.giphy.com/media/hvRJCLFzcasrR4ia7z/giphy.gif" width="28">
 </h2>
 
 <p align="center">
-  <img src="https://readme-typing-svg.herokuapp.com/?lines=Frontend%20Developer;Backend%20Developer;Always%20learning%20new%20things&font=Fira%20Code&center=true&width=440&height=45&color=f75c7e&vCenter=true&size=22">
+  <img src="https://readme-typing-svg.herokuapp.com/?lines=Fullstack%20Developer;%20PHP%20%26%20Laravel;%20Always%20learning%20new%20things&font=Fira%20Code&center=true&width=440&height=45&color=f75c7e&vCenter=true&size=22">
 </p>
 
 <p align="center">
@@ -22,11 +23,11 @@
 snsar@github
 -------------------------
 🖥️ OS: Ubuntu 22.04
-👨‍💻 Job: Terminal Developer
-🚀 Languages: JavaScript, Python, Java
-🛠️ Technologies: React, Node.js, Docker
+👨‍💻 Job: Fullstack Developer (PHP & Laravel)
+🚀 Languages: PHP, JavaScript, Python
+🛠️ Technologies: Laravel, React, Node.js, Docker
 🎯 Focusing: System Architecture
-🌱 Learning: Rust, Cloud Native
+🌱 Learning: Cloud Native, Rust
 🎮 Hobbies: Coding, Gaming, Learning
 📧 Contact: your.email@example.com
 ```
@@ -34,6 +35,8 @@ snsar@github
 <!-- Tech Stack -->
 <h2 align="center">⚡ Tech Stack ⚡</h2>
 <p align="center">
+<img src="https://img.shields.io/badge/PHP-777BB4?style=for-the-badge&logo=php&logoColor=white"/>
+<img src="https://img.shields.io/badge/Laravel-FF2D20?style=for-the-badge&logo=laravel&logoColor=white"/>
 <img src="https://img.shields.io/badge/Javascript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black"/>
 <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white"/>
 <img src="https://img.shields.io/badge/React-61DAFB?style=for-the-badge&logo=react&logoColor=black"/>
@@ -47,12 +50,6 @@ snsar@github
 <p align="center">
   <img width="48%" src="https://github-readme-stats.vercel.app/api?username=snsar&show_icons=true&theme=tokyonight" />
   <img width="48%" src="https://github-readme-streak-stats.herokuapp.com/?user=snsar&theme=tokyonight" />
-</p>
-
-<!-- Coding Activity Graph -->
-<h2 align="center">📈 Contribution Graph 📈</h2>
-<p align="center">
-  <img src="https://activity-graph.herokuapp.com/graph?username=snsar&theme=react-dark"/>
 </p>
 
 <!-- Terminal Commands Section -->
@@ -108,3 +105,5 @@ snsar@github
 > exit
 Thanks for visiting my profile! Let's connect and build something amazing together! 🚀
 ```
+
+
