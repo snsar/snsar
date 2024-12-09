@@ -1,0 +1,75 @@
+name: Generate Resume PDF
+
+on:
+  push:
+    paths:
+      - 'README.md'
+    branches:
+      - main
+  workflow_dispatch:
+
+jobs:
+  convert-to-pdf:
+    runs-on: ubuntu-latest
+    
+    steps:
+      - uses: actions/checkout@v3
+      
+      - name: Setup Node.js
+        uses: actions/setup-node@v3
+        with:
+          node-version: '16'
+          
+      - name: Install md-to-pdf
+        run: npm install -g md-to-pdf
+        
+      - name: Convert README to PDF
+        run: |
+          # Convert GitHub emojis to Unicode
+          sed 's/:[\w\-\+]*:/🔄/g' README.md > temp.md
+          
+          # Add CSS styling
+          echo "
+          <style>
+          body {
+            font-family: 'Arial', sans-serif;
+            line-height: 1.6;
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 20px;
+          }
+          h1, h2 {
+            color: #333;
+            border-bottom: 2px solid #eee;
+            padding-bottom: 10px;
+          }
+          .badges {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+            justify-content: center;
+          }
+          pre {
+            background: #f6f8fa;
+            padding: 16px;
+            border-radius: 6px;
+          }
+          </style>
+          " > style.css
+          
+          # Convert to PDF with custom styling
+          cat style.css temp.md | md-to-pdf --css-path 'style.css' > resume.pdf
+          
+      - name: Upload PDF artifact
+        uses: actions/upload-artifact@v3
+        with:
+          name: resume
+          path: resume.pdf
+          
+      - name: Commit and push PDF
+        run: |
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
+          git add resume.pdf
+          git commit -m "Update resume.pdf" || echo "No changes to commit"
+          git push origin main || echo "No changes to push"
