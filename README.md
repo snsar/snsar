@@ -96,10 +96,3 @@ class Developer {
 ---
 <p align="center">💡 Open for collaboration and interesting projects!</p>
 ```
-
-
-1. Thay thế `YOUR_USERNAME` bằng username GitHub của bạn
-2. Thay thế `YOUR_LINKEDIN` bằng username LinkedIn của bạn
-3. Thay thế `YOUR_EMAIL` bằng địa chỉ email của bạn
-4. Tùy chỉnh các project trong phần Featured Projects theo dự án thực tế của bạn
-5. Có thể điều chỉnh lại các skill và công nghệ trong class Developer cho phù hợp
