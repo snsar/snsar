@@ -95,4 +95,5 @@ class Developer {
 
 ---
 <p align="center">💡 Open for collaboration and interesting projects!</p>
+<p align="center">💡 Open for collaboration and interesting projects!</p>
 
