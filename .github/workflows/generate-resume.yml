@@ -1,4 +1,4 @@
-name: Generate Resume PDF
+name: Generate LaTeX Resume
 
 on:
   push:
@@ -9,64 +9,130 @@ on:
   workflow_dispatch:
 
 jobs:
-  convert-to-pdf:
+  create-pdf:
     runs-on: ubuntu-latest
-    
+
     steps:
       - uses: actions/checkout@v3
-      
-      - name: Setup Node.js
-        uses: actions/setup-node@v3
-        with:
-          node-version: '16'
-          
-      - name: Install md-to-pdf
-        run: npm install -g md-to-pdf
-        
-      - name: Convert README to PDF
+
+      - name: Install TeX Live
         run: |
-          # Convert GitHub emojis to Unicode
-          sed 's/:[\w\-\+]*:/🔄/g' README.md > temp.md
+          sudo apt-get update
+          sudo apt-get install -y texlive-latex-base texlive-fonts-recommended texlive-fonts-extra texlive-latex-extra
+
+      - name: Create LaTeX template
+        run: |
+          cat > resume.tex << 'EOL'
+          \documentclass[a4paper,11pt]{article}
+          \usepackage[utf8]{inputenc}
+          \usepackage{hyperref}
+          \usepackage{fontawesome5}
+          \usepackage[margin=1in]{geometry}
+          \usepackage{titlesec}
+          \usepackage{enumitem}
+          \usepackage{color}
+          \usepackage{fancyhdr}
+          \usepackage{lastpage}
+          \usepackage{minted}
           
-          # Add CSS styling
-          echo "
-          <style>
-          body {
-            font-family: 'Arial', sans-serif;
-            line-height: 1.6;
-            max-width: 900px;
-            margin: 0 auto;
-            padding: 20px;
-          }
-          h1, h2 {
-            color: #333;
-            border-bottom: 2px solid #eee;
-            padding-bottom: 10px;
-          }
-          .badges {
-            display: flex;
-            flex-wrap: wrap;
-            gap: 10px;
-            justify-content: center;
-          }
-          pre {
-            background: #f6f8fa;
-            padding: 16px;
-            border-radius: 6px;
-          }
-          </style>
-          " > style.css
+          % Define colors
+          \definecolor{linkcolor}{RGB}{0,112,201}
           
-          # Convert to PDF with custom styling
-          cat style.css temp.md | md-to-pdf --css-path 'style.css' > resume.pdf
+          % Configure hyperlinks
+          \hypersetup{
+              colorlinks=true,
+              linkcolor=linkcolor,
+              urlcolor=linkcolor
+          }
           
+          % Custom section style
+          \titleformat{\section}
+              {\Large\bfseries}
+              {}{0em}
+              {\color{linkcolor}}[\titlerule]
+          
+          \begin{document}
+          
+          % Header
+          \begin{center}
+              {\Huge \textbf{Developer Resume}}
+              \vspace{0.5em}
+              
+              \href{https://github.com/yourusername}{\faGithub\ GitHub} $|$
+              \href{https://linkedin.com/in/yourusername}{\faLinkedin\ LinkedIn} $|$
+              \faEnvelope\ your.email@example.com
+          \end{center}
+          
+          \section{Skills}
+          \begin{itemize}[leftmargin=*]
+              \item \textbf{Backend:} PHP, Laravel, MySQL, RESTful APIs
+              \item \textbf{Frontend:} Vue.js, JavaScript, HTML/CSS
+              \item \textbf{Tools:} Docker, Git, PHPUnit
+              \item \textbf{Other:} CI/CD, Agile Methodologies
+          \end{itemize}
+          
+          \section{Experience}
+          \subsection*{Senior Developer | Company Name | 2020 - Present}
+          \begin{itemize}[leftmargin=*]
+              \item Led development of scalable web applications using Laravel and Vue.js
+              \item Implemented CI/CD pipelines reducing deployment time by 60\%
+              \item Mentored junior developers and conducted code reviews
+          \end{itemize}
+          
+          \section{Projects}
+          \subsection*{E-Commerce Platform}
+          \begin{itemize}[leftmargin=*]
+              \item Built with Laravel \& Vue.js
+              \item Features: RESTful API, Real-time Updates, Payment Integration
+          \end{itemize}
+          
+          \subsection*{CRM System}
+          \begin{itemize}[leftmargin=*]
+              \item Customer Relationship Management system
+              \item Tech stack: Laravel, Vue.js, MySQL, Docker
+          \end{itemize}
+          
+          \section{Education}
+          \textbf{Bachelor of Computer Science} | University Name | 2016 - 2020
+          
+          \end{document}
+          EOL
+
+      - name: Convert README to LaTeX content
+        run: |
+          python3 -c '
+          import re
+          import sys
+          
+          def md_to_tex(md_content):
+              # Basic conversion rules
+              tex = md_content
+              tex = re.sub(r"#\s+(.*)", r"\\section{\1}", tex)
+              tex = re.sub(r"\*\*(.*?)\*\*", r"\\textbf{\1}", tex)
+              tex = re.sub(r"\*(.*?)\*", r"\\textit{\1}", tex)
+              return tex
+          
+          with open("README.md", "r") as f:
+              md_content = f.read()
+          
+          tex_content = md_to_tex(md_content)
+          
+          with open("content.tex", "w") as f:
+              f.write(tex_content)
+          '
+
+      - name: Generate PDF
+        run: |
+          pdflatex -shell-escape resume.tex
+          pdflatex -shell-escape resume.tex  # Run twice for references
+
       - name: Upload PDF artifact
         uses: actions/upload-artifact@v3
         with:
           name: resume
           path: resume.pdf
-          
-      - name: Commit and push PDF
+
+      - name: Commit PDF
         run: |
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Action"
